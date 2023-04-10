@@ -23,7 +23,7 @@ header {
 }
 
 body {
-    background-image: url('/assets/bg_val.png');
+    background-image: url('./assets/bg_val.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed ;
@@ -80,31 +80,31 @@ body {
             opacity: 1;
         }
         .de_lotus::before {
-            background-image: url('/assets/01_Lotus.png');
+            background-image: url('./assets/01_Lotus.png');
         }
         .de_pearl::before {
-            background-image: url('/assets/02_Pearl.png');
+            background-image: url('./assets/02_Pearl.png');
         }
         .de_fracture::before {
-            background-image: url('/assets/03_Fracture.png');
+            background-image: url('./assets/03_Fracture.png');
         }
         .de_breeze::before {
-            background-image: url('/assets/04_Breeze.png');
+            background-image: url('./assets/04_Breeze.png');
         }
         .de_icebox::before {
-            background-image: url('/assets/05_Icebox.png');
+            background-image: url('./assets/05_Icebox.png');
         }
         .de_bind::before {
-            background-image: url('/assets/06_Bind.png');
+            background-image: url('./assets/06_Bind.png');
         }
         .de_haven::before {
-            background-image: url('/assets/07_Haven.png');
+            background-image: url('./assets/07_Haven.png');
         }
         .de_split::before {
-            background-image: url('/assets/08_Split.png');
+            background-image: url('./assets/08_Split.png');
         }
         .de_ascent::before {
-            background-image: url('/assets/09_Ascent.png');
+            background-image: url('./assets/09_Ascent.png');
         }
         .accept {
             background-color: v.$selection-color;
